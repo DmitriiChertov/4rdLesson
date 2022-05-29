@@ -32,7 +32,7 @@ public class Main {
                     float[] fractional = {1.57f, 7.654f, 9.986f};
                     System.out.println(fractional[0] + ", " + fractional[1] + ", " + fractional[2] + ".");
                     for (int t = fractional.length - 1; t >= 0; t--) {
-                        if (t == fractional.length - 3) {
+                        if (t == 0) {
                             System.out.print(fractional[t] + ". ");
                         } else {
                             System.out.print(fractional[t] + ", ");
