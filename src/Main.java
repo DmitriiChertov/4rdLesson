@@ -52,7 +52,7 @@ public class Main {
                 }
                 System.out.println();
                 for (int r = random.length - 1; r >= 0; r--) {
-                    if (r == random[0] ) {
+                    if (r == random[r] - 1) {
                         System.out.print(random[r] + ". ");
                     } else {
                         System.out.print(random[r] + ", ");
